@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.Main {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+}
+.instruments {
+    width: 60vw;
+    height: 3vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 1vw;
+}
+.instruments select {
+    width: 20%;
+}
+.auth {
+    width: 15%;
+    background-color: #5F855F;
+    height: 3vh;
+    border: none;
+    border-left: .2vw solid #5B7152;
+    border-bottom: .2vw solid #5B7152;
+    text-align: center;
+    border-radius: .3em;
+    color: white;
+}
+.lots {
+    width: 60vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}

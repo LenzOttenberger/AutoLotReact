@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.Main {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+}
+.user {
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #A28F74;
+    border-radius: 1em;
+    margin: 1vw auto;
+    padding: 1vw;
+    border-left: .5vw solid #8B7C63;
+    border-bottom: .5vw solid #8B7C63;
+    gap: 1vw;
+}
+.user button {
+    width: 40%;
+    height: 3vh;
+    border: none;
+    border-radius: .3em;
+    border-left: .2vw solid #5B7152;
+    border-bottom: .2vw solid #5B7152;
+    text-align: center;
+    background-color: #5F855F;
+    color: white;
+}
+p {
+    font-size: calc(.5rem + 1vw);
+    border: none;
+    border-radius: .3em;
+    background-color: #EFEBE2;
+    border-left: .2vw solid #D9D4CA;
+    border-bottom: .2vw solid #D9D4CA;
+    color: #95837E;
+    width: 50%;
+}
+.lot-info {
+    width: 100%;
+    text-align: center;
+    font-size: calc(.5rem + 1.5vw);
+    color: #EFEBE2;
+}

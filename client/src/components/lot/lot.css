@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.lot {
+    width: 28vw;
+    border-radius: 1em;
+    height: 15vh;
+    background-color: #EFEBE2;
+    border-left: .2vw solid #D9D4CA;
+    border-bottom: .2vw solid #D9D4CA;
+    color: #574c48;
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100%;
+}
+.head {
+    font-size: calc(.5rem + 1.5vw);
+    color: #95837E;
+}
+.info h2 {
+    color: #95837E;
+}
